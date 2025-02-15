@@ -12,7 +12,7 @@ for(let i=0; i<inputs.length; i++){
 	inputs[i].addEventListener("keyup", (e) => {
 		if(e.key === "Backspace"){
 			inputs[i-1].focus()
-			inputs[i].blur()
+			//inputs[i].blur()
 		}
 	})
 }
